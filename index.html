@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visibility vs None</title>
+    <style>
+        .box {
+            height: 200px;
+            width: 220px;
+            display: flex;
+
+        }
+
+        #vist-1 {
+            background-color: aqua;
+        }
+
+        #vist-2 {
+            background-color: saddlebrown;
+            display: none;
+
+        }
+
+        #vist-3 {
+            background-color: lightgreen;
+            visibility: hidden;
+        }
+
+        #vist-4 {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dis">
+        <div class="box" id="vist-1"></div>
+        <div class="box" id="vist-2"></div>
+        <div class="box" id="vist-3"></div>
+        <div class="box" id="vist-4"></div>
+    </div>
+
+</body>
+
+</html>
